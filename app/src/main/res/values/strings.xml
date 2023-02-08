@@ -6,4 +6,13 @@
     <string name="cb_food">フード</string>
     <string name="rb_male">男</string>
     <string name="rb_female">女</string>
+    <string-array name="sp_currylist">
+        <item> ドライ カレー </item>
+        <item> カツ カレー </item>
+        <item> ビーフカレー </item>
+        <item> チキン カレー </item>
+        <item> シーフード カレー </item>
+        <item> キーマカレー </item>
+        <item> グリーン カレー </item>
+    </string-array>
 </resources>
