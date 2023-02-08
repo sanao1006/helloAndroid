@@ -48,15 +48,17 @@
             android:text="@string/cb_food" />
 
     </LinearLayout>
+
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
         android:background="#df7401"
         android:orientation="horizontal"
-        android:paddingBottom="8dp"
-        android:paddingTop="8dp">
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp">
+
         <RadioButton
             android:id="@+id/rbMale"
             android:layout_width="wrap_content"
@@ -64,7 +66,8 @@
             android:layout_marginStart="24dp"
             android:layout_marginEnd="24dp"
             android:background="#ffffff"
-            android:text="@string/rb_male"/>
+            android:text="@string/rb_male" />
+
         <RadioButton
             android:id="@+id/rbFemale"
             android:layout_width="wrap_content"
@@ -72,16 +75,18 @@
             android:layout_marginStart="24dp"
             android:layout_marginEnd="24dp"
             android:background="#ffffff"
-            android:text="@string/rb_female"/>
+            android:text="@string/rb_female" />
     </RadioGroup>
+
     <Spinner
         android:id="@+id/spCurryList"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#fff"
         android:entries="@array/sp_currylist"
-        android:paddingBottom="8dp"
-        android:paddingTop="8dp"/>
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp" />
+
 
     <Button
         android:id="@+id/button5"
@@ -89,5 +94,11 @@
         android:layout_height="wrap_content"
         android:text="@string/bt_save" />
 
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#fff"
+        android:entries="@array/lv_cocktaillist" />
 
 </LinearLayout>
